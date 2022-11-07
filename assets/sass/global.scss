@@ -1,0 +1,41 @@
+*, *::after, *::before  {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f6f8fc;
+  }
+  
+  .content {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+  }
+  
+  @media screen and (min-width: 1050px) {
+    .content {
+        max-width: 100%;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+  
+        h1 {
+          padding-left: 8px
+        }
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .content {
+        max-width: 90%;
+    }
+  }
+  
+  @import './color.scss';
+  @import './style.scss';
